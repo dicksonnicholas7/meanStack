@@ -6,8 +6,6 @@ var route = require('./routes/route');
 
 mongoose.connect('mongodb://localhost:27017/contacts');
 
-
-
 mongoose.connection.on('connected',
 function () {
     console.log('connected to mongodb');
