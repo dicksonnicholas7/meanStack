@@ -20,7 +20,7 @@ function (req,res,next) {
   let newContact = new Contact({
     first_name: req.body.first_name,
     last_name: req.body.last_name,
-   // phone: req.body.phone
+    phone: req.body.phone
   });
   console.log(newContact);
 

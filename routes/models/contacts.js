@@ -9,9 +9,9 @@ last_name : {
     required : true
 
 },
-phone_number : {
+phone : {
     type : String,
-    required : false
+    required : true
 }
 
 });
